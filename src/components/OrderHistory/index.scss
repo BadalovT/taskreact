@@ -1,0 +1,22 @@
+.order_history_content {
+    display: flex;
+    justify-content: center;
+
+    .order_history_header {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            margin-right: 50px;
+        }
+    }
+
+    .order_history {
+        display: flex;
+        justify-content: space-between;
+       .order_history_item{
+           border: 1px solid gray;
+           border-radius: 10px;
+       }
+    }
+}

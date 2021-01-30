@@ -1,0 +1,104 @@
+.order_content {
+    display: flex;
+    justify-content: center;
+
+    .order_header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        h1 {
+            margin-right: 50px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 23px;
+            font-feature-settings: 'pnum'on, 'lnum'on;
+
+            /* Primary/ Dark */
+
+            color: #2D2D2F;
+        }
+    }
+
+    .order {
+        display: flex;
+        justify-content: space-between;
+
+        .order_left {
+            h3 {
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                font-feature-settings: 'pnum'on, 'lnum'on;
+                color: #2D2D2F;
+                margin-bottom: 10px;
+            }
+
+            input {
+                background: #FFFFFF;
+                border: 1px solid #F0F4FB;
+                box-sizing: border-box;
+                border-radius: 45px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                font-feature-settings: 'pnum'on, 'lnum'on;
+                color: #727280;
+                padding: 10px;
+                margin-bottom: 10px;
+                width: 300px;
+                outline: none;
+            }
+
+            button {
+                position: static;
+                width: 292px;
+                height: 50px;
+                left: 0px;
+                top: 132px;
+                background: #2967FF;
+                border-radius: 51px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: center;
+                font-feature-settings: 'pnum'on, 'lnum'on;
+                color: #FFFFFF;
+                border: none;
+            }
+        }
+
+        .order_right {
+            background: #F0F4FB;
+            border-radius: 20px;
+            height: 122px;
+            padding: 20px;
+
+            p {
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 140%;
+                /* identical to box height, or 20px */
+
+                font-feature-settings: 'pnum'on, 'lnum'on;
+
+                /* Primary/Body */
+
+                color: #727280;
+                margin-bottom: 10px !important;
+                white-space: nowrap
+            }
+
+
+        }
+    }
+}
